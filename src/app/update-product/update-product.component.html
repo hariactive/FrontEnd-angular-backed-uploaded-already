@@ -1,0 +1,17 @@
+<form class="product-form" #myForm="ngForm" (submit)="updateProduct(myForm.value)">
+    <!-- <div class="product-controller">
+        <label for="id"></label>
+    Product id <input type ="number" name="id" ngModel>
+    </div> -->
+    <div class="product-controller">
+        <label for="name"></label>
+    Product Name <input type ="text" name="name" ngModel>
+    </div>
+    <div class="product-controller">
+        <label for="price"></label>
+    Product Price <input type ="text" name="price" ngModel>
+    </div>
+    <div class="product-controller">
+        <input type="submit">
+    </div>
+</form>
